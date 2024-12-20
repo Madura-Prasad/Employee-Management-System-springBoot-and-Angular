@@ -41,5 +41,5 @@ A simple **Employee Management System** application built using **Spring Boot** 
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/employee-management-system.git
-   cd employee-management-system/backend
+   git clone [https://github.com/your-repo/employee-management-system.git
+   cd employee-management-system/backend](https://github.com/Madura-Prasad/Employee-Management-System-springBoot-and-Angular.git)
