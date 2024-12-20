@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a routerLink="employees" routerLinkActive="active" class="nav-link text-light">Employee List</a>
+        </li>
+    </ul>
+</nav>
+<h1 class="text-center text-info mt-2" style="font-weight: bold;">{{title}}</h1>
+<div class="container">
+<router-outlet></router-outlet>
+</div>
+<footer class="footer">
+    <div class="container">
+        <span>All Rights Reserved</span>
+    </div>
+</footer>

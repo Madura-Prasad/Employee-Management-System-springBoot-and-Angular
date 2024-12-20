@@ -1,0 +1,20 @@
+<div class="col-md-6 offset-md-3 mt-5">
+    <h3>view Employee</h3>
+    
+    <form>
+        <div class="form-group mt-5">
+            <label for="exampleInputEmail1">First Name:</label>
+            <input type="text" class="form-control" id="firstName"  placeholder="Enter First Name" name="firstName" [(ngModel)]="employee.firstName" readonly>
+          </div>
+          <div class="form-group mt-3">
+            <label for="exampleInputPassword1">Last Name:</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" name="lastName" [(ngModel)]="employee.lastName" readonly>
+          </div>
+    
+          <div class="form-group mt-3">
+            <label for="exampleInputPassword1">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email Address" name="email" [(ngModel)]="employee.email" readonly>
+          </div>
+    </form>
+    </div>
+    
